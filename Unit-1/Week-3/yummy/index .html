@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <script src="https://kit.fontawesome.com/1e2dbae0da.js" crossorigin="anonymous"></script>
+
+<style>
+       #textarea1{
+        width: 620px;
+        height: 185px;
+        margin-top: 25px;
+        margin-left: 20px;  
+      }
+    .mainchild{
+            display: flex;
+            justify-content: space-around;
+             width: 100%;
+             height: 100px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+        }
+        .icons{
+      font-size: 25px;
+      margin-top: 35px;
+      margin-left: 45%;
+}
+        .child1{
+            width: 250px;
+            text-align: center;
+        }
+        .child2{
+            display: flex;
+            gap: 25px;
+             font-size: 1.1em;
+             margin-top: 35px;
+             text-decoration: none;      
+        }
+        .ancer{
+            text-decoration: none;
+            color: black;
+        }
+        .ancer:hover{
+    
+            color: brown;
+            filter: drop-shadow(0 0 10px);
+        }
+        
+        .btn01{
+            height: 50px;
+            width: 200px;
+            font-size: 20px;
+            margin-top: 20px;
+            border: none;
+            background-color: rgb(247, 41, 161);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+        }
+        .btn01:hover{
+    cursor: pointer;
+    background-color: rgb(88, 56, 228);
+    color: rgb(236, 232, 232);
+    filter: drop-shadow(0 0 10px);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+        .btns2{
+            height: 50px;
+            width: 200px;
+            margin-top: 20px;
+            border: none;
+            background-color: darkred;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+        }
+        .btns2:hover{
+            cursor: pointer;
+            background-color: brown;
+            color: rgb(41, 40, 40);
+            filter: drop-shadow(0 0 10px);
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+        }
+    .mainpart{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        background-color: lightgray;
+    }
+    .part1{
+        text-align: center;
+        font-size: large;
+        font-style: italic;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .part2{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .mainbox {
+           width: 80%;
+        }
+
+        .box1 {
+            width: 50%;
+            height: 600px;
+            position: relative;
+            left: 5cm;
+        }
+
+        .image {
+            width: 70%;
+            height: 500px;
+            position: relative;
+            top: 1cm;    
+        }
+
+        .box2 {
+            width: 50%;
+            height: 150px;
+            border: 3px solid rgb(65, 54, 54);
+            position: relative;
+            top: 2cm;
+            text-align: center;  
+        }
+        #head2 {
+            color: red;
+        }
+        .box3 {
+            width:40% ;
+            height: 400px;
+            font-size: 25px;
+            color: #ac9496ee;
+            font-style: italic;
+            line-break: 10px;
+            line-height: 30px;
+            position: relative;
+            left: 40px;
+            bottom: 40px;
+        }
+        .para {
+            color: black;
+            font-style: normal;
+        }
+        .para2{
+            color: black;
+            font-style: 20px;
+        }
+        .box4{
+            width: 70%;
+            height:300px;
+            position: relative;
+        }
+        .image2{
+            width: 80%;
+            height: 400px;
+            position: relative;
+        }
+        .hedr{
+    background-image:url(https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+    height: cover;
+    height: 600px;
+    margin-top: 50px;
+}
+.mid{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+.dip1{
+    height: 400px;
+    width: 330px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.dip{
+    height: 330px;
+    width: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+text-align: center;
+background-color: white;
+color: black;
+}
+.button{
+    padding: 20px;
+    width: 100px;
+}
+.image2{
+    width: 100%;
+    height: 400px;
+}
+.image3{
+display: flex;
+justify-content: space-around;
+position: relative;
+bottom: 250px;
+color: white;
+}
+.testy{
+    display: flex;
+    justify-content: center; 
+    gap: 80px;
+    text-align: center;
+}
+.testy2{
+       display: flex;
+       justify-content: center;
+       gap: 80px;
+       text-align: center;
+}
+.ancer1{
+   text-decoration: none;
+font-size: 20px;
+margin-left: 5px;
+}
+.ancers{
+text-align: center;
+}
+.itstrue{
+    width: 190px;
+}
+.itstrue2{
+       color: gray;
+}
+.itstrue3{
+ color: red;
+}
+.paaram{
+position: relative;
+right: 200px;
+top: 50px;
+left: 0;
+}
+.photo{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-top: 50px;
+margin-left: 30px;
+}
+.littel{
+display: flex;
+width: 95%;
+height: 360px;
+gap: 50px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.objects{
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    margin-right: 15%;
+}
+.object1{
+    font-style: italic;
+}
+.object2{
+    color: gray;
+}
+.object3{
+    color: yellow;
+}
+.party1{
+    width: 440px;
+    height: 450px;
+}
+.party2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 240px;
+    color: white;
+}
+.party3{
+    margin-right:15px;
+
+}
+.party4{
+    margin-right: 95px;
+
+}
+.chef{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+.chef1{
+    color: gray;
+}
+.chef2{
+    font-style: italic;
+    color: darkred;
+}
+.chefs{
+  justify-content: center;
+  display: flex;
+  gap: 1%;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.chef3{
+    width:200px ;
+    height: 250px ;
+}
+.mainbox{
+         width: 80%;
+         height: 500px;
+         display: flex;
+         position: relative;
+         left: 10%;        
+        }  
+image{
+      width: 40%;
+              height: 100px;
+            position: relative;
+            bottom: 350px;
+    }
+.box2{
+        
+            width: 50%;
+            height: 450px;
+            background-color: antiquewhite;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+        
+        .yourname{
+            width: 25%;
+            height: 70px;
+            font-size: 20px; 
+
+        }
+
+   .poet1{
+
+    text-align: center;
+   }
+   .last{
+
+    
+    width: 80%;
+    margin-left: 10%;
+   }
+   .line{
+
+    width: 2px;
+    height: 375px;
+    margin-right: 75%;
+    margin-top: 50px;
+    position: relative;
+    
+   }
+   .paryt20{
+
+    display: flex;
+    gap: 40px;
+    position: relative;
+    right: 370px;
+    top: 60px;
+   }
+   .sid{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 40px; */
+    margin-top: 40px;
+   }
+   .mahajan{
+    position: relative;
+   }
+   .riya{
+    position: absolute;
+    bottom: 3px;
+    left: 50px;
+    color: white;
+    width: 30%;
+    /* background-color: white; */
+   }
+   .riya1{
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+    color: white;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   }
+   .riya2{
+    
+ position: relative;
+ left: 73%;
+ width: 23%;
+ bottom: 420px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   }
+   .chef10{
+
+    /* margin-bottom: 200px; */
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+   }
+   .count{
+
+/* border: 2px solid black; */
+width: 670px;
+height: 450px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.info1{
+
+width:625px;
+height: 30px;
+position: relative;
+left: 10px;
+top: 20px;
+
+}
+.info2{
+
+width: 300px;
+height: 30px;
+margin-top: 30px;
+margin-left: 20px;
+}
+.arya{
+background-color: lightgrey;
+
+ 
+}
+.arya2{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+.arya3{
+    width:200px ;
+    height: 230px ;
+    position: relative;
+    bottom: 50px;
+}
+.aryaas{
+    text-align: center;
+}
+
+.india{
+    width: 100%;
+    height: 300px;
+}
+#contener{
+         
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         gap: 50px;
+         margin-left: 50px;
+     }
+     #textarea1{
+         width: 92%;
+         height: 185px;
+         margin-top: 25px;
+         margin-left: 20px;
+         
+       }
+       .count{
+ 
+ 
+ width: 90%;
+ height: 500px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ margin-top: 35px;
+ }
+       .info1{
+ 
+ width:92%;
+ height: 30px;
+ position: relative;
+ left: 20px;
+ top: 20px;
+ 
+ }
+ .info2{
+ 
+ width: 45%;
+ height: 30px;
+ margin-top: 30px;
+ margin-left: 20px;
+ }
+ .btn{
+ 
+ width: 200px;
+ height: 50px;
+ margin-left: 40%;
+ margin-top: 20px;
+ border: none;
+ background-color: blue;
+ color: white;
+ font-size: 13px;
+ border-radius: 30px;
+ 
+ }
+ .btn:hover{
+ 
+ cursor: pointer;
+ background-color: aqua;
+ color: black;
+ filter: drop-shadow(0 0 10px );
+ width: 250px;
+ 
+ }
+     .chills{
+          
+         width: 50px;
+         height: 50px;
+         /* border: 2px solid black; */
+         border-radius: 100%;
+         text-align: center;
+         margin-top: 20px;
+         margin-left: 20px;
+         background-color: brown;
+         color: white;
+     }
+     .location{
+ 
+         font-size: 25px;
+         margin-top: 12px;
+     
+     }
+     .childiv{
+         width: 550px;
+         height: 100px;
+         /* border: 2px solid black; */
+         display: flex;
+         gap: 40px;
+         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+     }
+     .krack{
+ 
+         background-color: rgb(22, 20, 20);
+         width: 100%;
+         height: 300px;
+         color: white;
+         display: flex;
+         gap: 100px;
+     }
+     .back{
+ 
+         display: flex;
+         gap: 30px;
+         margin-top: 40px;
+         margin-left: 40px;
+         
+     }
+     .location1{
+ 
+         font-size: 25px;
+         margin-top: 20px;
+         color: rgb(207, 61, 61);
+     }
+     .back1{
+         margin-top: 25px;
+         width: 200px;
+ 
+ 
+     }
+     .icons{
+     font-size: 25px;
+     display: flex;
+     gap: 30px;
+
+     
+   }
+   .moddel{
+ 
+     text-align: center;
+     position: relative;
+     bottom: 100px;
+     color: white;
+   }
+ .icons10{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+ }
+ .count1{
+    width: 90%;
+ height: 500px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ margin-left: 5%;
+ }
+</style>
+
+</head>
+<body style="margin: 0; padding: 0;">
+   
+        <div class="mainchild">
+            <div class="child1"><h1>Yummy.</h1></div>
+            <div  class="child2">
+                <a class="ancer" href="">HOME</a>
+                <a class="ancer" href=""> SERVICES</a>
+                <a class="ancer" href="">COURSES</a>
+                <a class="ancer" href=""> BLOG</a>
+                <a class="ancer" href="">ABOUT</a>
+                <a class="ancer" href="">CONTACT</a>
+                <a class="ancer" href="">CARRER</a>
+            </div>
+        <button class="btns2"> Book a Table </button> 
+    </div>
+    <br>
+
+    <div class="mainpart">
+        <div class="part1">
+            <h1> Enjoy Your Healthy
+                Delicious Food</h1>
+            <p>We are team of talented designers making websites with Bootstrap</p>
+            <button class="btn">Book a Table </button>
+        </div>
+        <div class="part2">
+            <img src="https://themewagon.github.io/yummy-red/assets/img/hero-img.png" alt="">
+        </div>
+    </div>
+<br><br><br><br><br><br>
+
+
+
+ <div class="mainbox">
+        <div class="box1">
+            <img class="image" src="https://themewagon.github.io/yummy-red/assets/img/about.jpg" alt="">
+            
+        </div>
+        <div class="box3">
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo possimus nihil <br>
+                 repellat explicabo aliquid dicta neque voluptatum voluptat odit eius dolores eum <br>
+                  vero doloremque exercitationem. ,ipsa est, sunt <br>
+                   assumenda autem numquam nostrum amet vel? Rem?</p>
+                <ul>
+
+                    <li class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, magni.</li><br>
+                    <li class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, magni.</li><br>
+                    <li class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, magni.</li><br>
+                </ul>
+                
+                    
+                </div>
+            </div>
+            <br> <br><br><br>
+           <div class="hedr">
+            <div class="mid">
+            <div class="dip1">
+
+                <h1>Why Choose <br>
+                    Yummy</h1>
+                    <p>Lorem ipsum dolor sit amet,<br>
+                     consectetur adipiscing elit, <br>
+                     sed do eiusmod tempor incididunt ut <br>
+                      labore et dolore magna aliqua. <br>
+                      Duis aute irure dolor in reprehenderit <br>
+                       Asperiores  dolores sed et. Tenetur quia <br>
+                        Autem tempore quibusdam vel necessitatibus <br>
+                         optio ad corporis.</p>
+                    <button class="btn01">learn more</button>
+            </div>
+            <div  class="dip">
+                <i class="fa-solid fa-globe icons"></i>
+                <h1>Corporis voluptates 
+                officia <br>
+                 eiusmod</h1>
+                <p>Consequuntur sunt autb <br>
+                     quasi enim aliquam <br>
+                 quae harum pariatur <br>
+                  laboris nisi ut aliquip</p>
+            </div>
+            <div  class="dip" >
+                <i class="fa-solid fa-diamond icons"></i>
+                <h1>Ullamco laboris <br>
+                ladore pan</h1>
+                <p>Excepteur sint occaecat <br>
+                     cupidatat non proident,<br>
+                 sunt in culpa qui <br>
+                  officia deserunt</p>
+            </div>
+            <div  class="dip">
+                <i class="fa-brands fa-wolf-pack-battalion icons"></i>
+                <h1>Labore consequatur <br>
+                 incidid dolore</h1>
+                <p>Aut suscipit aut cum <br>
+                     nemo deleniti aut omnis. <br>
+                 Doloribus ut maiores omnis facere</p>
+            </div>
+        </div>
+        </div>
+         <br>
+         
+         
+
+         <div class="image1">
+         <img class="image2" src="https://t3.ftcdn.net/jpg/02/97/67/70/360_F_297677001_zX7ZzRq8DObUV5IWTHAIhAae6DuiEQh4.jpg" alt="">
+        <div class="image3">
+        <div>
+        <h1>232</h1>
+        <h4>Clients</h4>
+        </div>
+        <div>
+        <h1>521</h1>
+        <h4>Project</h4>
+        </div>
+        <div>
+        <h1>1453</h1>
+        <h4>Hours of supprots</h4>
+        </div>
+        <div>
+        <h1>32</h1>
+        <h4>Workers</h4>
+        </div>
+        </div>
+        </div>
+        
+        
+        <p style="text-align: center;color: gray;">OUR MENU</p>
+        <h1 style="text-align: center; color: red; font-style: italic;"> CHECK OUR YUMMY MENU</h1>
+<br>
+<div class="ancers" >
+<a class="ancer1" href="">Starters</a>
+<a class="ancer1" href="">Breakfast</a>
+<a class="ancer1" href="">Lunch</a>
+<a class="ancer1"href="">Dinner</a>
+  </div>      
+  <p style="text-align: center;color: gray;">MENU</p>
+  
+  <h1 style="text-align: center; color: red; font-style: italic; font-size: large; "> STARTERS</h1>
+<br>
+<br>
+  <div class="testy">
+    <div>
+        <img class="itstrue" src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-1.png" alt="">
+        <h2>Magnam</h2>
+        <p class="itstrue2"> Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3">$5.95</h1>
+    </div>
+    <div>
+        <img  class="itstrue" src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-2.png" alt="">
+        <h2>Aut Luia </h2>
+        <p class="itstrue2" > Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3" >$14.95</h1>
+    </div>
+    <div>
+        <img class="itstrue" src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-3.png" alt="">
+        <h2>Est Eligendi </h2>
+        <p class="itstrue2"> Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3">$8.95</h1>
+    </div>
+  </div>
+  <br>
+  <div class="testy2">
+    <div>
+        <img class="itstrue" src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-4.png" alt="">
+        <h2>Eos Luibusdam </h2>
+        <p class="itstrue2"> Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3">$12.95</h1>
+    </div>
+    <div>
+        <img class="itstrue"  src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-5.png" alt="">
+        <h2>Eos luibusdam</h2>
+        <p class="itstrue2"> Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3">$12.95</h1>
+    </div>
+    <div>
+        <img class="itstrue" src="https://themewagon.github.io/yummy-red/assets/img/menu/menu-item-6.png" alt="">
+        <h2>Laboriosam Direva</h2>
+        <p class="itstrue2"> Loream, deren, trataro, filede, nerada</p>
+        <h1 class="itstrue3">$9.95</h1>
+    </div>
+  </div>
+
+
+    <br>
+    
+
+        <p  class="poet1">TESTIMONILAS</p>
+        <h1 class="poet1">What Are They Saying About Us</h1>
+    </div>
+    <div class="last" >
+    <!-- <hr class="line">  -->
+     <!-- <div class="last"> -->
+    <div class="littel">
+    <img class="photo" src="https://themewagon.github.io/MediLab/assets/img/testimonials/testimonials-1.jpg" alt="">
+    <div style="margin-top: 50px;"  >
+      <h2>Saut Goodman</h2>
+      <h3>Ceo & Funder</h3>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <div class="paaram">
+  <p style="font-size: 20px;" > &#10077; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id itaque optio, dolorem, modi, quis quasi cum natus commodi.&#10078;</p>
+</div>
+</div>
+</div></div>
+<div class="mahajan">
+<div class="sid">
+<img class="party1"  src="https://png.pngtree.com/background/20210709/original/pngtree-black-gold-atmospheric-party-background-design-picture-image_956888.jpg" alt="">
+<img class="party1" src="https://image.slidesdocs.com/responsive-images/docs/decorating-a-birthday-party-with-black-and-gold-balloons-and-star-accents-page-border-background-word-template_525acd1e2d__1131_1600.jpg" alt="">
+<img  class="party1" src="https://img.kwcdn.com/product/fancy/431b6652-ac28-44b1-a506-6ae2ca51aa14.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="">
+</div>
+<div class="riya">
+    <h4>RRIVATE PARTIES </h4>
+    <h1>$289</h1>
+    <p>In delectus qui et  enim. et ab repudiandae <br>
+        inventore quaerat doloribus . facere nemo vero est ut <br>
+        dolores ea assumenda et. Delectus saepe accusamus <br> 
+        aspermatur. 
+      </p>
+</div>
+</div>
+<div class="riya1">
+    <h4>BIRTHDAY PARTIES</h4>
+    <h1>$499</h1>
+    <p>In delectus qui et  enim. et ab repudiandae <br>
+        inventore quaerat doloribus . facere nemo vero est ut <br>
+        dolores ea assumenda et. Delectus saepe accusamus <br> 
+        aspermatur. 
+    </p>
+</div>
+<div class="riya2">
+    <h4>WEDDING PARTIES </h4>
+    <h1>$989</h1>
+    <p>In delectus qui et  enim. et ab repudiandae <br>
+        inventore quaerat doloribus . facere nemo vero est ut <br>
+        dolores ea assumenda et. Delectus saepe accusamus <br> 
+        aspermatur. 
+    </p>
+</div>
+
+        
+
+
+<div>
+    <div class="chef">
+        <p class="chef1" >CHEFS</p>
+        <h1 class="chef2">OUR PROFFESIONAL CHEFS</h1>
+    </div>
+</div>
+<div class="chefs">
+    <div>
+        <img class="chef3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSMFpZRUVYP9kaZaa1YPyAiZx5-6tQdOgUw&s" alt="">
+        <h2> Walter white</h2>
+        <p class="chef1">Masterv chef</p>
+        <p class="chef1">elit aut quia fugit et et. Dolorum ea voluptate vel tempore <br>
+             tenetur ipsa quae aut. Ipsum exercitationem iure minima enim <br>
+              corporis et voluptate.</p>
+    </div>
+    <div>
+        <img class="chef3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-5mLDW_OpjYLr2TWcpcQWRBbTCS_pYSCLtpib3rVbAFt0FN1NtkQInup9fcSPfy4XW-o&usqp=CAU" alt="">
+        <h2>Sarah Jhonson</h2>
+        <p class="chef1">Patissier</p>
+        <p class="chef1">Quo esse repellendus quia id. Est eum et accusantium pariatur <br>
+            fugit nihil minima suscipit corporis. Voluptate sed quas <br>
+             reiciendis animi neque sapiente.</p>
+    </div>
+    <div>
+        <img class="chef3" src="https://cdn.itm.ac.in/2024/05/blog-chef.webp" alt="">
+        <h2>William Anderson</h2>
+        <p class="chef1">Cook</p>
+        <p class="chef1">Vero omnis enim consequatur. Voluptas consectetur unde qui <br>
+             molestiae deserunt. Voluptates enim aut architecto porro <br>
+              aspernatur molestiae modi.</p>
+    </div>
+</div>
+<div>
+    <div class="chef10">
+        <p class="chef1" >Book A Table</p>
+        <h1 class="chef2">Book Your Stay With Us</h1>
+    </div>
+    <div class="mainbox">
+        
+            <img class="image" src="https://img.freepik.com/premium-photo/good-wallpaper-which-shows-positivity_1105043-1837.jpg" alt="">
+            <form action="" class="count">
+                <div>
+              <button class="info2"> Your Name</button>
+              <button class="info2"> Your Email</button>
+            </div>
+            
+            <button class="info1">Subject</button> <br> <br>
+            <textarea name="are" id="textarea1">Message (Option) </textarea><br><br>
+            <button class="btn"><h3>Sent Message</h3></button>
+            
+             </form>
+        </div>
+       <br><br><br><br><br>
+       <div class="arya">
+       <div class="aryaas">
+    <br>
+        <p class="chef1" >GALLERY</p>
+        <h1 class="chef2">CHECK OUR GALLERY</h1>
+    </div>
+    <br><br>
+    <div class="arya2">
+    <div>
+        <img class="arya3" src="https://themewagon.github.io/yummy-red/assets/img/gallery/gallery-6.jpg" alt="">
+    </div>
+    <div>
+        <img  class="arya3" src="https://themewagon.github.io/yummy-red/assets/img/gallery/gallery-2.jpg" alt="">
+    </div>
+    <div>
+        <img class="arya3" src="https://themewagon.github.io/yummy-red/assets/img/gallery/gallery-7.jpg" alt="">
+    </div>
+    <div>
+        <img class="arya3" src="https://themewagon.github.io/yummy-red/assets/img/gallery/gallery-8.jpg"alt="">
+    </div>
+    <div>
+        <img class="arya3" src="https://themewagon.github.io/yummy-red/assets/img/gallery/gallery-4.jpg" alt="">
+    </div>
+</div>
+        </div>
+        
+        <div class="aryaas">
+            <br>
+             <p class="chef1" >Book A Table</p>
+             <h1 class="chef2">NEED HELP? CONTACT US</h1>
+         </div>
+             <br>
+                <img class="india" src="https://developers.google.com/static/maps/images/landing/hero_maps_static_api.png" alt="">    
+     <br><br>
+     <br> <br>
+         <div id="contener">
+            <div class="childiv">
+              <div class="chills">
+                <i class="fa-solid fa-location-dot location"></i>
+              </div>
+              <div>
+              <h2>Address</h2>
+              <h4>A108 Adam Street, New York, NY 535022</h4>
+            </div>
+            </div>
+            <div class="childiv">
+              <div class="chills">
+                <i class="fa-solid fa-phone location"></i>
+              </div>
+              <div>
+              <h2>Call Us</h2>
+              <h4>+1 5589 55488 55</h4>
+            </div>
+            </div>
+            <div class="childiv">
+              <div class="chills">
+                <i class="fa-solid fa-envelope location"></i>
+              </div>
+              <div>
+              <h2>Email Us</h2>
+              <h4>info@example.com</h4>
+            </div>
+            </div>
+            <div class="childiv">
+              <div class="chills">
+                <i class="fa-regular fa-clock location"></i>
+              </div>
+              <div>
+              <h2>Opening Hours</h2>
+              <h4>Mon-Sat: 11AM - 23PM; Sunday: Closed</h4>
+            </div>
+            </div>
+    
+    
+        </div><br><br>
+        <form action="" class="count1">
+            <div>
+          <button class="info2"> Your Name</button>
+          <button class="info2"> Your Email</button>
+        </div>
+        
+        <button class="info1">Subject</button> <br> <br>
+        <textarea name="are" id="textarea1">Message (Option) </textarea><br><br>
+        <button class="btn"><h3>Sent Message</h3></button>
+        </div>
+         </form>
+         <br><br>
+        <div class="krack">
+            <div class="back">
+                
+                    <i class="fa-solid fa-location-dot location1"></i>
+                <div>
+                    <h3>Address</h3>
+                    <h4>A108 Adam Street
+     <br>
+                        New York, NY 535022</h4>
+                </div>
+            </div>
+            <div class="back">
+                
+                <i class="fa-solid fa-phone location1"></i>
+                <div>
+                    <h3>Contact</h3>
+                    <h4>APhone: +1 5589 55488 55 <br>
+                        Email: info@example.com</h4>
+                </div>
+            </div>
+            <div class="back">
+                
+                <i class="fa-regular fa-clock location1"></i>
+                <div>
+                    <h3>Opening Hours</h3>
+                    <h4>Mon-Sat: 11AM - 23PM <br>
+                        Sunday: Closed</h4>
+                </div>
+            </div>
+            <div class="back1">
+                <h3>Follow Us</h3> <br>
+                <div class="icons10">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </div>
+    
+            </div>
+        </div>
+        <div class="moddel">
+        <hr width="80%">
+        <p>© Copyright Yummy All Rights Reserved
+            <br>
+            Designed by BootstrapMade Distributed by ThemeWagon</p>
+    </div>
+</body>
+</html>
