@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
+        }
+
+        .box1 {
+            width: 30%;
+            height: 100px;
+        }
+
+        #image {
+            width: 30%;
+            height: 100px;
+        }
+
+        #image:hover {
+            width: 35%;
+            height: 100px;
+        }
+
+        .box2 {
+            width: 50%;
+            height: 100px;
+            margin-top: 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        .ancer {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+
+        .ancer:hover {
+            text-decoration: underline red;
+            font-size: 40px;
+            color: blue;
+
+
+        }
+
+        .box3 {
+            width: 20%;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        .switch {
+            width: 50%;
+            height: 50px;
+            background-color: red;
+            color: white;
+            margin-left: 30px;
+        }
+        .switch:hover{
+            font-size: 20px;
+           background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="box1">
+            <img id="image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjsScWYmyfPv3XdkNdEFVJ1wlDKMOgcSWUcg&s"
+                alt="">
+        </div>
+        <div class="box2">
+            <a class="ancer" href=""> Home</a>
+            <a class="ancer" href="">About</a>
+            <a class="ancer" href="">Services</a>
+            <a class="ancer" href="">Blog</a>
+            <a class="ancer" href="">Contact</a>
+        </div>
+        <div class="box3">
+            <button class="switch">Go to Daseboard</button>
+        </div>
+    </div>
+</body>
+
+</html>
